@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'fitness/index'
   get 'recipes/index'
   root 'welcome#index'
   # this is a simple route
