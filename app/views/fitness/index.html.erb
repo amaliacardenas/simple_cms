@@ -2,3 +2,7 @@
 <% @array.each do |n| %>
 <%= n %> <br />
 <% end %>
+
+
+<!-- link with parameters -->
+<%= link_to('Fitness Hacks with parameters', {:controller => 'fitness', :action => 'hello', :page =>5, :id=>20 }) %>
